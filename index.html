@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EasVN</title>
+	<style>
+		body {
+			background-image: url("https://www.example.com/background-image.jpg"); /* 这里需要替换成你想使用的背景图片链接 */
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.button {
+			background-color: #4CAF50; /* 这里可以修改按钮背景色 */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 30px; /* 这里可以修改按钮圆角度数 */
+		}
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.col {
+			float: left;
+			width: 33.33%; /* 如果要调整宽度，需要同时调整这里和 .button 的 padding */
+			padding: 0 20px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col">
+			<a href="https://www.example.com/link1"><button class="button">按钮1</button></a>
+		</div>
+		<div class="col">
+			<a href="https://www.example.com/link2"><button class="button">按钮2</button></a>
+		</div>
+		<div class="col">
+			<a href="https://www.example.com/link3"><button class="button">按钮3</button></a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<a href="https://www.example.com/link4"><button class="button">按钮4</button></a>
+		</div>
+		<div class="col">
+			<a href="https://www.example.com/link5"><button class="button">按钮5</button></a>
+		</div>
+		<div class="col">
+			<a href="https://www.example.com/link6"><button class="button">按钮6</button></a>
+		</div>
+	</div>
+</body>
+</html>
